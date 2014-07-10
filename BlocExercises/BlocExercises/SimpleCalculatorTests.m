@@ -26,9 +26,9 @@
 }
 
 - (void) testThatIncrementsWork {
-    NSInteger sourceNumber = 17;
+    NSInteger sourceNumber = 15;
     NSInteger resultNumber = [self.calculator increaseNumberBy1:sourceNumber];
-    XCTAssertTrue(resultNumber == 18, @"17 + 1 = 18");
+    XCTAssertTrue(resultNumber == 16, @"17 + 1 = 18");
 }
 
 - (void) testThatAdditionWorks {

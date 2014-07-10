@@ -7,13 +7,13 @@ Strings
 */
 
 func favoriteCheeseStringWithCheese(cheese: String) -> String {
-    // WORK HERE
+    
     return cheese
 }
 
 let fullSentence = favoriteCheeseStringWithCheese("cheddar")
 // Make fullSentence say "My favorite cheese is cheddar."
-
+let fullSentance2 = favoriteCheeseStringWithCheese("My favorite cheese is cheddar")
 /*
 
 Arrays & Dictionaries
